@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>BasicQtQuickVcp/BasicQtQuickVcp.qml</file>
+        <file>BasicQtQuickVcp/description.ini</file>
+        <file>BasicQtQuickVcp/MainWindow.qml</file>
+        <file>BasicQtQuickVcp/TestComponent.qml</file>
+    </qresource>
+</RCC>
