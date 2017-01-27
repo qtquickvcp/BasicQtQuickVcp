@@ -6,29 +6,10 @@ Item {
     width: 600
     height: 600
 
-    Button {
-        id: button
-        anchors.centerIn: parent
-        text: qsTr("Test")
-        checkable: true
-
-        Binding {
-            target: button
-            property: "checked"
-            value: testComponent.test.value
-        }
-
-        Binding {
-            target: testComponent.test
-            property: "value"
-            value: button.checked
-        }
-    }
-
-    Button {
-        anchors.horizontalCenter: parent.horizontalCenter
-        anchors.top: button.bottom
-        action: EstopAction {}
+    StatusText {
+        id: statusText
+        anchors.fill: parent
+        anchors.margins: 30
     }
 }
 
