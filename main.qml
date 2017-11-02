@@ -27,12 +27,14 @@ ApplicationWindow {
         localVisible: true
         mode: "local"
         lookupMode: ServiceDiscovery.MulticastDNS
-        applications: [
-            ApplicationDescription {
-                sourceDir: "qrc:/BasicQtQuickVcp/"
-            }
-        ]
-        instanceFilter: ServiceDiscoveryFilter{ name: "" }
+
+        ApplicationDescription {
+            sourceDir: "qrc:/BasicQtQuickVcp/"
+        }
+
+        instanceFilter: {
+            name: ""
+        }
     }
 }
 
