@@ -15,7 +15,7 @@ Item {
             font.bold: true
         }
 
-        Text {
+        TextInput {
             Layout.fillWidth: true
             Layout.fillHeight: true
             text: JSON.stringify(appObject.status.config)
@@ -27,7 +27,7 @@ Item {
             font.bold: true
         }
 
-        Text {
+        TextInput {
             Layout.fillWidth: true
             Layout.fillHeight: true
             text: JSON.stringify(appObject.status.motion)
@@ -39,7 +39,7 @@ Item {
             font.bold: true
         }
 
-        Text {
+        TextInput {
             Layout.fillWidth: true
             Layout.fillHeight: true
             text: JSON.stringify(appObject.status.io)
@@ -51,7 +51,7 @@ Item {
             font.bold: true
         }
 
-        Text {
+        TextInput {
             Layout.fillWidth: true
             Layout.fillHeight: true
             text: JSON.stringify(appObject.status.interp)
